@@ -1,0 +1,13 @@
+n	56				
+d	2				
+r-1	1				
+
+data description	debt and deficit vs GDP				
+data sources	World bank				
+
+
+
+X	GDP (current US$)	NY.GDP.MKTP.CD	2011	WDI	World Bank
+Y1	Central government debt, total (% of GDP) * X	GC.DOD.TOTL.GD.ZS * X	2011	WDI	World Bank
+Y2	Cash surplus/deficit (% of GDP) / X		GC.BAL.CASH.GD.ZS * X	2011	WDI	World Bank
+compl	country				

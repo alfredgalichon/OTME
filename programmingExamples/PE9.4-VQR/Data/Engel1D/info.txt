@@ -1,0 +1,6 @@
+Engel's food expenditure data
+
+Source: 	Engel, Roger Koenker
+
+X	= income
+Y	= food expenditure
