@@ -1,7 +1,7 @@
-* p.  30, line -15: "reshape(A, [N,M])" should be changed into "reshape(A, [], 1)" [Thanks Jon Pearce.]
+* p.  30, line -15: "reshape(A, [N,M])" should be changed into "reshape(A, [], 1)" [Thanks Jon Pearce]
 * p.  39, line -11: both inequalities should hold strict.
 * p.  77, line  20: let  "X=R^d" should be changed into "Let X be a compact subset of R^d".
-* p. 143, line   3: "$x \leq 0\$" should be changed into "$x < 0$" 
+* p. 143, line   3: "x \leq 0\" should be changed into "x < 0" 
 * p. 146, line  -8: the min should be subject to "\alpha \geq 0"
 * p. 146, line  -7: two occurences of "q" should be changed into "\beta"
 * p. 146, line  -7: the max should be subject to "\beta \geq 0"
