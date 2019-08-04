@@ -114,7 +114,7 @@ ComputeBetaEtAl2D<-function(b_prov,T,U_prov,pi_prov,step){
   mu		<- matrix(1/m,m,1)
   beta1		<- matrix(0,m,r)
   beta2		<- matrix(0,m,r)
-  for (k in 1:r) { theGrad <- grad2D(b_prov[,k],T,U_prov,step); beta1[,1] <- theGrad$D1bk[nonzind,1]; beta2[,k]	<-beta1[,1] <- theGrad$D2bk[nonzind,1]}
+  for (k in 1:r) { theGrad <- grad2D(b_prov[,k],T,U_prov,step); beta1[,1] <- theGrad$D1bk[nonzind,1]; beta2[,k] <- theGrad$D2bk[nonzind,1]}
   pi		<- matrix(0,m,n)
   for (i in 1:n) {pi[,i]	<- pi_prov[nonzind,i] }
   b 		<- b_prov[nonzind]
