@@ -1,5 +1,6 @@
 p.  30, line -15: "reshape(A, [N,M])" should be changed into "reshape(A, [], 1)" [Thanks Jon Pearce]
 p.  39, line -11: both inequalities should hold strict
+p. 53, formula (5.22): replace k by j on two occurences [thanks Nabil Kazi-Tani]
 p.  61, line -9: change "unique (up to a constant) convex function u such" into "unique gradient of a convex function $\nabla u$ such"
 p.  77, line  20: "Let  X=R^d" should be changed into "Let X be a compact subset of R^d"
 p. 143, line   3: "x \leq 0\" should be changed into "x < 0" 
